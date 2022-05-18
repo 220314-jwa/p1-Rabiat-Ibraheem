@@ -1,26 +1,20 @@
 # Java with Automation Foundations Project
 
-For this project, you will be creating a full-stack application. There will be two different primary deadlines:
+##  STORY PITCH MANAGEMENT SYSTEM
 
-- **April 6th** Back end unit tests complete, at least 3 endpoints functional
-- **April 15th** Final deadline including front end
+Story Pitch Management System is an application that allows authors to submit story pitches to a publishing company. Authors are allowed to submit a pitch that includes a brief description of the story they hope to write, a tentative title, an expected completion date and a specified genre. Editors are able to view the pitches and either approve or reject them based on how well they meet the company's standards. Editors are also able to leave comments/suggestions on approved, pending or rejected pitches.
 
-The biggest priority for this application is testing! If you have everything working but you have not completed the testing requirements (JUnit, Mockito, Selenium), you **DO NOT** have a sufficient project. When considering how you want to manage your time, make sure that you will have your tests completed either early or as you go.
+## Technologies Used
 
-## About the Application
+Back-End: Java(1.8), Javalin(4.3.0), Maven(4.0)
 
-You will be creating one of these two applications:
+Front-End:  HTML5, CSS(2.1), JAVASCRIPT(ES 12)
 
-### TRMS: Tuition Reimbursement Management System
+Database:  PostgreSQL(14.3), DBeaver(22.0.4)
 
-Tuition Reimbursement Management System is an application which allows employees at a company to submit requests for reimbursement. If the employee decides to take a certification exam or attend a class, the company may reimburse them for the cost after they submit a request. Managers can then go into the application and approve or reject requests.
-
-### SPMS: Story Pitch Management System
-
-Story Pitch Management System is an application which allows authors to submit pitches for stories to the publishing company. They can write a small description of the story they hope to write, and editors can go into the application and approve or reject story pitches based on whether they sound interesting or even suggest changes before approval.
+Testing:  JUnit(5.8.2), Mockito(4.4.0), Selenium(3.17), Postman(9.18)
 
 ## Technical Requirements
-
 1. Data must be stored and retrieved from a PostgreSQL database (local or AWS).
 2. Data access in Java will be performed using JDBC DAOs.
 3. HTTP handling in Java will be done using Javalin.
@@ -29,15 +23,38 @@ Story Pitch Management System is an application which allows authors to submit p
 6. Front end must be written using HTML, CSS, and JavaScript (no libraries/frameworks for JS. Styling libraries like Bootstrap are fine).
 7. At least one feature must have an automation test written using Selenium.
 
-## Functional Requirements
+## Features
 
-[TRMS Specifications](./p1-specs/TRMS.md)
+Completed Features
 
-[SPMS Specifications](./p1-specs/SPMS.md)
+    Login feature
 
-## Bonus Requirements
+    Unit Testing(Junit)
 
-1. Use JWTs for session management.
-2. Use at least one Cucumber feature file.
-3. Use the POM design pattern for your Selenium test(s).
-4. Implement file attachments for requests/pitches.
+    PostgreSQL database connection
+
+    User Services and Implementation
+
+    Data access using JDBC DAOs
+  
+To-do list:
+
+    Restructuring the front-end features
+
+    Implementing additional user services
+
+    Connecting the project to an AWS database to enable remote access
+
+    Publishing PostgreSQL commands
+
+## Getting Started
+
+To get started, simply clone the project. Open the client in Replit, VScode or any similar code editor of your choice. Open the backend in Eclipse IDE. The client is written in JavaScript, so you can use the client immediately by copy/pasting the path to index.js into your broswer search bar. The backend api is built with the Javalin framework, and so runs directly on your local machine (via the JVM). Simply run the file that has the main method, application.java.
+
+## Usage
+
+Clone Link
+https://github.com/220314-jwa/p1-Rabiat-Ibraheem.git
+## License
+
+This project uses the following license: <license_name>.
