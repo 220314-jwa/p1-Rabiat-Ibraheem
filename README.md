@@ -55,6 +55,4 @@ To get started, simply clone the project. Open the client in Replit, VScode or a
 
 Clone Link
 https://github.com/220314-jwa/p1-Rabiat-Ibraheem.git
-## License
 
-This project uses the following license: <license_name>.
